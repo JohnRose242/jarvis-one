@@ -1,0 +1,21 @@
+.container {
+  height: 95vh;
+  width: 100%;
+
+  .jarvis-container {
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #111;
+
+    img {
+      height: 400px;
+      width: auto;
+    }
+
+    p.error {
+      color: red;
+    }
+
+  }
+
+}
