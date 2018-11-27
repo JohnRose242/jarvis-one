@@ -1,0 +1,7 @@
+<div class="container" [class.lights]="lightsOn">
+  <div class="actions">
+    <!--button mat-stroked-button color="primary" (click)="showReports(true)">Show Me My Reports</button-->
+    <br>
+    <button mat-stroked-button color="primary" (click)="toggleLights(lightsOn ? 'Off' : 'On', true)">Turn {{lightsOn ? 'Off' : 'On'}} The Lights</button>
+  </div>
+</div>
